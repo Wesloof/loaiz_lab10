@@ -14,7 +14,7 @@ int** createG(int size) {
     }
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
-            G[i][j] = rand() % 6;
+            G[i][j] = rand() % 6; 
             if (i == j) {
                 G[i][j] = 0;
             }
